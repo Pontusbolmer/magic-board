@@ -1,0 +1,41 @@
+body {
+    background-color: red;
+    font-size: 2em;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em 0em;
+}
+
+header button {
+    font-size: 16px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.board {
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    background-color:grey;
+    height: 50px;
+    width: 100%;
+
+    
+}
+
+
+
